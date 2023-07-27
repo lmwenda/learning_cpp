@@ -10,6 +10,9 @@ class Worker {
 
         Worker(std::string name, int age, int salary, int weekly_hours);
 
+        int r_slry();
+        int r_whrs();
+
         std::string return_department();
         std::string return_position();
         std::string return_description();

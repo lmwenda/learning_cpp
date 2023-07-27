@@ -14,3 +14,13 @@ int Worker::return_id()
 {
     return this->id;
 }
+
+int Worker::r_slry()
+{
+  return this->salary;
+}
+
+int Worker::r_whrs()
+{
+  return this->weekly_hours;
+}
